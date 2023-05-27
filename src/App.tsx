@@ -1,10 +1,10 @@
 import "./App.css";
-import HookCounterOne from "./modules/reducer-hook/HookCounterOne";
+import HookCounter from "./modules/syncExternalStore-hook/HookCounter";
 
 function App() {
   return (
     <div className="App">
-      <HookCounterOne />
+      <HookCounter />
     </div>
   );
 }
